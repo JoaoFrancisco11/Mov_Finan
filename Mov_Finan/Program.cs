@@ -90,5 +90,18 @@ void RealizarSaque(Cliente cliente)
 
 void RealizarDeposito(Cliente cliente)
 {
+    Console.WriteLine("Digite o valor que deseja depositar: ");
+    decimal valor = Convert.ToDecimal(Console.ReadLine());
+    cliente.RealizarDeposito(valor);
+    Console.WriteLine("Deseja realizar outra transação? Digite S ou N");
+    string realizarOutraTransacao = Console.ReadLine();
+    if(realizarOutraTransacao == "S")
+    {
+        ExibirMenu(cliente);
+    }
+    else
+    {
+        Console.WriteLine("É sempre um prazer atender você! Até a próxima");
+    }
 
 }
