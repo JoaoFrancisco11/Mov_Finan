@@ -1,0 +1,15 @@
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\bin\Debug\net6.0\Mov_Finan.exe
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\bin\Debug\net6.0\Mov_Finan.deps.json
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\bin\Debug\net6.0\Mov_Finan.runtimeconfig.json
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\bin\Debug\net6.0\Mov_Finan.dll
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\bin\Debug\net6.0\Mov_Finan.pdb
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.csproj.AssemblyReference.cache
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.AssemblyInfoInputs.cache
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.AssemblyInfo.cs
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.csproj.CoreCompileInputs.cache
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.dll
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\refint\Mov_Finan.dll
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.pdb
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\Mov_Finan.genruntimeconfig.cache
+C:\Users\jooao\OneDrive\Documentos\CSharp\Mov_Finan\Mov_Finan\obj\Debug\net6.0\ref\Mov_Finan.dll

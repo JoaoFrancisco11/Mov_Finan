@@ -1,7 +1,7 @@
 ﻿#region Codigo
-using BancoLL;
+using Mov_Finan;
 
-List<String> Clientes = new List<string>();
+List<Cliente> Clientes = new List<Cliente>();
 ConsultarCliente();
 
 void ConsultarCliente()
@@ -13,7 +13,7 @@ void ConsultarCliente()
 
     foreach (Cliente cli in Clientes)
     {
-        if (cli.codigo == codigo)
+        if (cli.Codigo == codigo)
         {
             cliente = cli;
         }
@@ -25,9 +25,25 @@ void ConsultarCliente()
         if (cadastrarCliente == "S")
         {
             Console.WriteLine("Digite seu código:");
-            string codigoCliente = Console.ReadLine();
+            string codigoClienteNovo = Console.ReadLine();
+            Console.WriteLine("Digite o seu nome: ");
+            string nomeClienteNovo = Console.ReadLine();
+            Console.WriteLine("Digite PF para Pessoa Física ou PJ para Pessoa Jurídica:");
+            string tipoPessoa = Console.ReadLine();
+            if (tipoPessoa == "PF")
+            {
+                cliente = new PessoaFisica(codigoClienteNovo, nomeClienteNovo);
+            }
+            else
+            {
+                cliente = new PessoaJuridica(codigoClienteNovo, nomeClienteNovo);
+            }
+            Clientes.Add(cliente);
+            ExibirMenu(cliente);
 
         }
+        else
+            ConsultarCliente();
     }
 }
 
@@ -44,7 +60,7 @@ void ExibirMenu(Cliente cliente)
     switch (menu)
     {
         case "1":
-            ExibirMenu(cliente); break;
+            ExibirExtrato(cliente); break;
         case "2":
             RealizarSaque(cliente); break;
         case "3":
@@ -57,7 +73,7 @@ void ExibirMenu(Cliente cliente)
 
 void ExibirExtrato(Cliente cliente)
 {
-    Console.Write("----------- Extrato -----------");
+    Console.Write("----------- Extrato -----------\n");
     foreach (Movimentacao mov in cliente.Movimentacoes)
     {
         Console.WriteLine($"{mov.Tipo} - {mov.Valor}");
@@ -105,3 +121,5 @@ void RealizarDeposito(Cliente cliente)
     }
 
 }
+
+#endregion
